@@ -1,0 +1,54 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.contact-list__adr {
+  margin-bottom: 39px;
+}
+/* Не пойму почему псевдоэлементы не работают */
+.contact-list__adr::before {
+  content: "";
+  background-image: url("../img/phone-call.svg");
+  width: 45px;
+  height: 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact-list__link {
+  margin-bottom: 14px;
+}
+.contact-list__link:last-child {
+  margin-bottom: 0px;
+}
+.contact-list__item-tel {
+}
+.contact-list__item-mail {
+}
+.contact-sotial {
+  display: flex;
+}
+.contact-sotial__item {
+  margin-right: 20px;
+}
+
+.contact-sotial__item:last-child {
+  margin-right: 0px;
+}
+
+.contact-map {
+  background-image: url("../img/map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 680px;
+  height: 274px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}

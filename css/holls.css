@@ -1,0 +1,52 @@
+.holls-list {
+    list-style: none;
+}
+
+.holls-list__item {
+    position: relative;
+    height: 350px;
+    margin-bottom: 60px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 580px;
+    display: inline-block;
+    margin: 0;
+}
+
+.holls-list__item:nth-child(odd){
+    margin-right: 20px;
+}
+
+.holls-list__item:nth-child(-n + 2){
+    margin-bottom: 20px;
+}
+
+.holls__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    line-height: 80px;
+}
+
+
+
+.holls-list__item_vibes {
+    background-image: url('../img/80_vibes.jpg');
+}
+
+.holls-list__item_wars {
+    background-image: url('../img/stars_wars.jpg');
+}
+
+.holls-list__item_west {
+    background-image: url('../img/wild_west.jpg');
+}
+
+.holls-list__item_neon {
+    background-image: url('../img/neon_style.jpg');
+}

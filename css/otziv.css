@@ -1,0 +1,37 @@
+.otziv-list {
+  width: 980px;
+  margin: 0 auto;
+}
+.otziv-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.otziv-list__item:last-child {
+  margin-bottom: 0px;
+}
+
+.otziv-list__item-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 28%;
+}
+
+.otziv-item__figure-img {
+  margin-bottom: 11px;
+}
+
+.otziv-item__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  flex-basis: 69%;
+}
+.text {
+}
+.otziv-item__figure-caption {
+}

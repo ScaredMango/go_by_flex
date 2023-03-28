@@ -1,0 +1,122 @@
+.bron {
+  background-color: #440f51;
+}
+.bron-form__holls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.bron-form__holls-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bron-form__holls-btn {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.bron-form__holls-btn__input {
+  display: none;
+}
+
+.container-s {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.bron-form__activity {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.bron-form__activity-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+
+.bron-form__activity-game {
+  display: flex;
+  flex-direction: column;
+}
+
+.bron-form__activity-game__item {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.bron-form__activity-game__item:last-child {
+  margin-bottom: 0px;
+}
+
+.bron-form__activity-game__input {
+  margin-right: 12px;
+}
+
+.bron-form__data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.bron-form__data-date {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 31%;
+}
+
+.bron-form__data-date__time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bron-form__data-date__time-label {
+  flex-basis: 44%;
+}
+
+.bron-form__data-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 14px;
+}
+
+.bron-form__data-label:last-child {
+  margin-bottom: 0px;
+}
+
+.bron-form__data-input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 5px;
+}
+
+.bron-form__data-btn {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #440f51;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px 50px;
+}

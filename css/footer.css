@@ -1,0 +1,19 @@
+.footer{
+    padding-top: 100px;
+    padding-bottom: 7px;
+}
+.footer-coopirate {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: normal;
+}
+.footer-coopirate__contact-adr{
+    font-style: normal;
+}
+
+.footer-coopirate__contact-text{
+    margin-bottom: 7px;
+}
