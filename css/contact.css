@@ -9,7 +9,10 @@
 }
 .contact-list__adr {
   margin-bottom: 39px;
+  display: flex;
 }
+7
+
 /* Не пойму почему псевдоэлементы не работают */
 .contact-list__adr::before {
   content: "";
