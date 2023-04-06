@@ -23,9 +23,26 @@
   text-transform: uppercase;
   padding: 7px 15px;
   background-color: #fff;
+  border:3px solid #fff;
   border-radius: 8px;
   color: black;
   cursor: pointer;
+}
+
+.bron-form__holls-btn:hover{
+  border:3px solid #640AA3;
+  background-color: #EADEED;
+}
+
+.bron-form__holls-btn:focus{
+  border:3px solid #fff;
+  background-color: #640AA3;
+}
+
+.bron-form__holls-btn:active{
+  border:3px solid #FFFFFF;
+  background-color: #6C0287;
+  color: #fff;
 }
 
 .bron-form__holls-btn__input {
@@ -111,12 +128,35 @@
   padding: 0 5px;
 }
 
+.bron-form__data-input:focus{
+  border:2px solid #CD06FF ;
+  outline:0;
+}
+
+
 .bron-form__data-btn {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   color: #440f51;
   background-color: #fff;
+  border:3px solid #fff;
   border-radius: 10px;
   padding: 16px 50px;
+}
+
+.bron-form__data-btn:hover{
+  border:3px solid #640AA3;
+  background-color: #EADEED;
+}
+
+.bron-form__data-btn:focus{
+  border:3px solid #fff;
+  background-color: #640AA3;
+}
+
+.bron-form__data-btn:active{
+  border:3px solid #FFFFFF;
+  background-color: #6C0287;
+  color: #fff;
 }

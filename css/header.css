@@ -46,6 +46,18 @@
   color: white;
 }
 
+.header-navigation__bnt:hover{
+  background-color: #6C0287;
+}
+
+.header-navigation__bnt:focus{
+  background-color: #6C0287;
+}
+
+.header-banner__bnt:active{
+  background-color: #640AA3;
+}
+
 .header-banner {
   position: relative;
   height: 830px;
@@ -105,6 +117,7 @@
   line-height: 34px;
   text-align: center;
 }
+
 .header-banner__bnt {
   background-color: #6c0287;
   color: white;
@@ -116,3 +129,18 @@
   text-transform: uppercase;
   border: none;
 }
+
+.header-banner__bnt:hover{
+  background-color: #840AA3;
+}
+
+.header-banner__bnt:focus{
+  background-color: #840AA3;
+}
+
+.header-banner__bnt:active{
+  background-color: #640AA3;
+}
+
+
+

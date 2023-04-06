@@ -55,3 +55,19 @@
   display: flex;
   justify-content: space-between;
 }
+
+svg{
+  fill: #fff;
+}
+
+svg:hover{
+  fill: #EADEED;
+}
+
+svg:focus{
+  fill: #EADEED;
+}
+
+svg:active{
+  fill: #CD06FF;
+}
