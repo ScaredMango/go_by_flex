@@ -44,18 +44,22 @@
   font-size: 22px;
   line-height: 30px;
   color: white;
+  transition: 200ms ease-in-out;
 }
 
 .header-navigation__bnt:hover{
   background-color: #6C0287;
+  transition: 200ms ease-in-out;
 }
 
 .header-navigation__bnt:focus{
   background-color: #6C0287;
+  transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:active{
   background-color: #640AA3;
+  transition: 200ms ease-in-out;
 }
 
 .header-banner {
@@ -128,18 +132,22 @@
   line-height: 30px;
   text-transform: uppercase;
   border: none;
+  transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:hover{
   background-color: #840AA3;
+  transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:focus{
   background-color: #840AA3;
+  transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:active{
   background-color: #640AA3;
+  transition: 200ms ease-in-out;
 }
 
 

@@ -21,6 +21,12 @@
   display: flex;
   align-items: end;
   background-repeat: no-repeat;
+  transition: 200ms ease-in-out;
+}
+
+.rest-list__item:hover{
+   transform: scale(110%);
+   transition: 200ms ease-in-out;
 }
 
 .rest-list__item:nth-child(-n + 3){
@@ -55,4 +61,5 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
+  margin: 40px;
 }
