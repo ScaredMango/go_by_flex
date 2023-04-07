@@ -43,6 +43,10 @@
   margin-right: 0px;
 }
 
+.contact-list__link:hover{
+  text-shadow: 2px 2px 2px #CD06FF;
+}
+
 .contact-map {
   background-image: url("../img/map.jpg");
   background-position: center;

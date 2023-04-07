@@ -2,6 +2,7 @@
     padding-top: 100px;
     padding-bottom: 7px;
 }
+
 .footer-coopirate {
   display: flex;
   justify-content: space-between;
@@ -10,10 +11,19 @@
   line-height: 16px;
   font-style: normal;
 }
+
 .footer-coopirate__contact-adr{
     font-style: normal;
 }
 
 .footer-coopirate__contact-text{
     margin-bottom: 7px;
+}
+
+.footer-coopirate__contact-text:hover,
+.footer-coopirate__contact-text:hover
+{
+ cursor: pointer;
+ border-bottom: 2px solid #CD06FF;
+ transition: 1s ease-in-out;
 }
