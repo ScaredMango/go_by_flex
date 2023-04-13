@@ -1,6 +1,6 @@
 .footer{
     padding-top: 100px;
-    padding-bottom: 7px;
+    padding-bottom: 12px;
 }
 
 .footer-coopirate {
@@ -21,7 +21,7 @@
 }
 
 .footer-coopirate__contact-text:hover,
-.footer-coopirate__contact-text:hover
+.footer-coopirate__contact-adr:hover
 {
  cursor: pointer;
  border-bottom: 2px solid #CD06FF;

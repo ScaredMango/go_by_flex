@@ -1,6 +1,26 @@
 .header {
   padding-top: 40px;
   padding-bottom: 50px;
+  position: relative;
+}
+
+.header-arrow{
+  position: absolute;
+  right: 50%;
+  bottom: 90px;
+
+  background-image: url('../img/down.svg');
+  width: 95px;
+  height: 95px;
+  background-size: contain;
+}
+
+.header-arrow:hover{
+  background-image: url('../img/down-hover.svg');
+}
+
+.header-arrow:active{
+  background-image: url('../img/down-active.svg');
 }
 
 .header-navigation {
@@ -33,6 +53,7 @@
 }
 
 .header-navigation__list-link {
+  text-transform: uppercase;
 }
 .header-navigation__bnt {
   background: transparent;

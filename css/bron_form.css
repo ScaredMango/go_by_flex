@@ -45,6 +45,11 @@
   color: #fff;
 }
 
+.bron-form__holls-btn__input:checked{
+    border:3px solid #FFFFFF;
+    background-color: #6C0287;
+    color: #fff;
+}
 .bron-form__holls-btn__input {
   display: none;
 }
