@@ -22,16 +22,34 @@
 }
 
 .otziv-item__figure-img {
+  position: relative;
+  z-index: -2;
+  border-radius: 100%;
   margin-bottom: 11px;
 }
 
+.otziv-item__figure-img ::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  display: inline-block;
+  content: " ";
+  width: 200px;
+  height: 200px;
+  background: rgb(196, 196, 196);
+  background: radial-gradient(
+    circle,
+    rgba(196, 196, 196, 0) 38%,
+    rgba(108, 2, 135, 0.5) 67%,
+    rgba(108, 2, 135, 0.5) 88%
+  );
+  z-index: 3;
+}
 .otziv-item__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   flex-basis: 69%;
-}
-.text {
-}
-.otziv-item__figure-caption {
 }

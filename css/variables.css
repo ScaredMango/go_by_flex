@@ -1,0 +1,13 @@
+:root{
+    --light: #fff;
+    --light-purple: #CD06FF;
+    --purple: #CD06FF;
+    --dark-purple: #6C0287;
+    --dark-blue: #640AA3;
+    --dark-list:#440F51;  
+
+    --cart-count: 3; 
+    --gap: 30px; 
+
+    --radian-gradient: radial-gradient(circle, rgba(196,196,196,0) 49%, rgba(108,2,135,0.7596288515406162) 100%);
+}

@@ -1,5 +1,5 @@
 .bron {
-  background-color: #440f51;
+  background-color: var(--dark-list,#440f51);
 }
 .bron-form__holls {
   display: flex;
@@ -22,33 +22,33 @@
   text-align: center;
   text-transform: uppercase;
   padding: 7px 15px;
-  background-color: #fff;
-  border:3px solid #fff;
+  background-color: var(--light);
+  border:3px solid var(--light);
   border-radius: 8px;
   color: black;
   cursor: pointer;
 }
 
 .bron-form__holls-btn:hover{
-  border:3px solid #640AA3;
+  border:3px solid var(--dark-blue,#640AA3);
   background-color: #EADEED;
 }
 
 .bron-form__holls-btn:focus{
-  border:3px solid #fff;
-  background-color: #640AA3;
+  border:3px solid var(--light);
+  background-color: var(--dark-blue,#640AA3);
 }
 
 .bron-form__holls-btn:active{
-  border:3px solid #FFFFFF;
-  background-color: #6C0287;
-  color: #fff;
+  border:3px solid var(--light);
+  background-color: var(--dark-purple,#6C0287);
+  color: var(--light);
 }
 
 .bron-form__holls-btn__input:checked{
-    border:3px solid #FFFFFF;
-    background-color: #6C0287;
-    color: #fff;
+    border:3px solid var(--light);
+    background-color: var(--dark-purple,#6C0287);
+    color: var(--light);
 }
 .bron-form__holls-btn__input {
   display: none;

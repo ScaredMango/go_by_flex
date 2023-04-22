@@ -57,7 +57,7 @@
 }
 .header-navigation__bnt {
   background: transparent;
-  border: 3px solid #cd06ff;
+  border: 3px solid var(--purple,#CD06FF);
   border-radius: 10px;
   padding: 12px 32px;
   cursor: pointer;
@@ -69,17 +69,17 @@
 }
 
 .header-navigation__bnt:hover{
-  background-color: #6C0287;
+  background-color: var(--dark-purple,#6C0287);
   transition: 200ms ease-in-out;
 }
 
 .header-navigation__bnt:focus{
-  background-color: #6C0287;
+  background-color: var(--dark-purple,#6C0287);
   transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:active{
-  background-color: #640AA3;
+  background-color: var(--dark-blue,#6C0287);
   transition: 200ms ease-in-out;
 }
 
@@ -134,7 +134,7 @@
   font-weight: 900;
   font-size: 75px;
   line-height: 106px;
-  color: #cd06ff;
+  color: var(--purple,#cd06ff);
 }
 .header-advantages__list-text {
   font-weight: 400;
@@ -144,7 +144,7 @@
 }
 
 .header-banner__bnt {
-  background-color: #6c0287;
+  background-color: var(--dark-purple,#6c0287);
   color: white;
   padding: 25px 60px;
   border-radius: 10px;
@@ -157,17 +157,17 @@
 }
 
 .header-banner__bnt:hover{
-  background-color: #840AA3;
+  background-color: var(--dark-blue,#840AA3);
   transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:focus{
-  background-color: #840AA3;
+  background-color: var(--dark-blue,#840AA3);
   transition: 200ms ease-in-out;
 }
 
 .header-banner__bnt:active{
-  background-color: #640AA3;
+  background-color: var(--dark-blue,#840AA3);
   transition: 200ms ease-in-out;
 }
 

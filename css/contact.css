@@ -11,17 +11,10 @@
   margin-bottom: 39px;
   display: flex;
 }
-7
+
 
 /* Не пойму почему псевдоэлементы не работают */
-.contact-list__adr::before {
-  content: "";
-  background-image: url("../img/phone-call.svg");
-  width: 45px;
-  height: 45px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .contact-list__link {
   margin-bottom: 14px;
 }
@@ -44,7 +37,7 @@
 }
 
 .contact-list__link:hover{
-  text-shadow: 2px 2px 2px #CD06FF;
+  text-shadow: 2px 2px 2px var(--light-purple,#CD06FF);
 }
 
 .contact-map {
@@ -73,5 +66,5 @@ svg:focus{
 }
 
 svg:active{
-  fill: #CD06FF;
+  fill: var(--light-purple,#CD06FF);
 }

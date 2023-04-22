@@ -3,7 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
+
 
 .holls-list__item {
     position: relative;
@@ -23,6 +25,7 @@
     margin-right: 20px;
 }
 
+
 .holls-list__item:nth-child(-n + 2){
     margin-bottom: 20px;
 }
@@ -34,8 +37,8 @@
     transform: translate(-50%, -50%);
     font-size: 70px;
     line-height: 80px;
-}
 
+}
 
 
 .holls-list__item_vibes {
